@@ -32,10 +32,10 @@ public class InstructionsGenerator {
                 		LocalDate.of(2017, 3, 10),
                 		LocalDate.of(2017, 3, 13),
                 		10L,
-                	    new BigDecimal("150.00"))
+                	    new BigDecimal("150.00")),
 
-        		/*new Entity(
-                		"Entity2",
+        		new Entity(
+                		"Entity3",
                 		Indicator.SELL,
                 		 new BigDecimal("0.25"),
                 		"SAR",
@@ -45,7 +45,7 @@ public class InstructionsGenerator {
                 	    new BigDecimal("250.00")),
 
         		new Entity(
-                		"Entity3",
+                		"Entity4",
                 		Indicator.BUY,
                 		 new BigDecimal("0.32"),
                 		"EUR",
@@ -55,7 +55,7 @@ public class InstructionsGenerator {
                 	    new BigDecimal("150.00")),
 
         		new Entity(
-                		"Entity4",
+                		"Entity5",
                 		Indicator.BUY,
                 		 new BigDecimal("0.32"),
                 		"EUR",
@@ -65,7 +65,7 @@ public class InstructionsGenerator {
                 	    new BigDecimal("325.00")),
 
         		new Entity(
-                		"Entity5",
+                		"Entity6",
                 		Indicator.SELL,
                 		 new BigDecimal("0.25"),
                 		"SAR",
@@ -75,14 +75,14 @@ public class InstructionsGenerator {
                 	    new BigDecimal("225.00")),
 
         		new Entity(
-                		"Entity6",
+                		"Entity7",
                 		Indicator.SELL,
                 		 new BigDecimal("0.32"),
                 		"EUR",
                 		LocalDate.of(2017, 3, 11),
                 		LocalDate.of(2017, 3, 17),
                 		100L,
-                	    new BigDecimal("150.00"))*/));
+                	    new BigDecimal("150.00"))));
             
     }
 }
